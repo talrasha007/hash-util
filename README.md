@@ -8,12 +8,11 @@ npm install hash-util
 ```
 
 ## API
+  Default encoding is 'hex'.
   - hash.md5(str, [encoding])
   - hash.sha1(str, [encoding])
   - hash.sha256(str, [encoding])
   - hash.sha512(str, [encoding])
-  
-  Default encoding is 'hex'.
 
 ## Usage
 ```js
