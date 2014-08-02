@@ -1,6 +1,9 @@
 {
     "name": "hash-util",
     "version": "0.0.1",
+    "keywords": [
+        "crypto", "hash", "md5", "sha1", "sha256", "sha512"
+    ],
     "description": "A node.js crypto hash helper.",
     "repository": "https://github.com/talrasha007/hash-util.git",
     "readmeFile": "README.md"
