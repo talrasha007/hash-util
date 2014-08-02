@@ -1,0 +1,7 @@
+{
+    "name": "hash-util",
+    "version": "0.0.1",
+    "description": "A node.js crypto hash helper.",
+    "repository": "https://github.com/talrasha007/hash-util.git",
+    "readmeFile": "README.md"
+}
