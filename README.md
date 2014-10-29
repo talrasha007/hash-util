@@ -7,20 +7,20 @@ npm install hash-util
 ```
 
 ## API
-  [Node.js crypto hash](http://nodejs.org/api/crypto.html#crypto_class_hash) wrapper.
+[Node.js crypto hash](http://nodejs.org/api/crypto.html#crypto_class_hash) wrapper.
   Default encoding is 'hex'.
   - hash.md5(str, [encoding])
   - hash.sha1(str, [encoding])
   - hash.sha256(str, [encoding])
-  - hash.sha512(str, [encoding])
+  - hash.sha512(str, [encoding])  
 
-  [Sortable-hash](https://github.com/juliangruber/sortable-hash) wrapper.
-  - hash.sortable.encode(values[, options]);
-  - hash.sortable.decode(string, numValues);
+[Sortable-hash](https://github.com/juliangruber/sortable-hash) wrapper.
+  - hash.sortable.encode(values[, options])
+  - hash.sortable.decode(string, numValues)  
 
-  [Geohash](http://en.wikipedia.org/wiki/Geohash).
-  - hash.geo.encode(coordinate, precision); // coordinate => { lng: 116.389550, lat: 39.928167 }
-  - hash.geo.decode(string);
+[Geohash](http://en.wikipedia.org/wiki/Geohash).
+  - hash.geo.encode(coordinate, precision) // coordinate => { lng: 116.389550, lat: 39.928167 }
+  - hash.geo.decode(string)  
 
 ## Usage
 ```js
